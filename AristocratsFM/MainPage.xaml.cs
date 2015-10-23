@@ -159,14 +159,14 @@ namespace AristocratsFM
                     string[] separators = { "<>" };
                     string[] CurrentSong = page.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
-                    artist = CurrentSong[0];
+                    song = CurrentSong[0];
                     if (CurrentSong.Length > 1)
                     {
-                        song = CurrentSong[1];
+                        artist = CurrentSong[1];
                     }
                     else
                     {
-                        song = "";
+                        artist = "";
                     }
                 }
 

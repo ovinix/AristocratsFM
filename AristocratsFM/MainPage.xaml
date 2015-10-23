@@ -28,8 +28,8 @@
         </Grid>
         <Grid Grid.Row="1">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button x:Name="ButtonAristocrats" Content="Aristocrats" Padding="21,12" Margin="12,0" BorderBrush="{x:Null}" FontSize="20" Click="ButtonAristocrats_Click" FontWeight="Bold" Style="{StaticResource ButtonStyleNoOnPressBackground}"/>
-                <Button x:Name="ButtonAMusic" Content="(A) Music" Padding="21,12" Margin="12,0" FontSize="20" Click="ButtonAMusic_Click" FontWeight="Bold" Style="{StaticResource ButtonStyleNoOnPressBackground}"/>
+                <Button x:Name="ButtonAristocrats" Content="Aristocrats" Padding="21,12" Margin="12,0" BorderBrush="{x:Null}" FontSize="21" Click="ButtonAristocrats_Click" FontWeight="Bold" Style="{StaticResource ButtonStyleNoOnPressBackground}"/>
+                <Button x:Name="ButtonAMusic" Content="(A) Music" Padding="21,12" Margin="12,0" FontSize="21" Click="ButtonAMusic_Click" FontWeight="Bold" Style="{StaticResource ButtonStyleNoOnPressBackground}"/>
             </StackPanel>
         </Grid>
 
@@ -39,8 +39,8 @@
 
         <Grid Grid.Row="3" >
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-                <TextBlock x:Name="Artist" TextAlignment="Center" FontSize="20" Foreground="White" MaxLines="3" TextWrapping="WrapWholeWords" MaxWidth="375" Margin="12,12,12,0" FontWeight="Bold" TextTrimming="CharacterEllipsis"/>
-                <TextBlock x:Name="Song" HorizontalAlignment="Center" FontSize="16" Foreground="White"/>
+                <TextBlock x:Name="Song" TextAlignment="Center" FontSize="21" Foreground="White" MaxLines="3" TextWrapping="WrapWholeWords" MaxWidth="375" Margin="12,12,12,0" FontWeight="Bold" TextTrimming="CharacterEllipsis"/>
+                <TextBlock x:Name="Artist" HorizontalAlignment="Center" FontSize="17" Foreground="White"/>
                 <TextBlock x:Name="Buffering" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="11" Foreground="White"/>
             </StackPanel>           
         </Grid>
