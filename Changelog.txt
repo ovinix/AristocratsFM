@@ -1,0 +1,10 @@
+1.0.0.1
+Release on Windowsphone Store
+
+1.0.0.2
+App name on tile added
+Current song bug fixes
+
+1.0.0.3
+Some buffering bug fixes
+(Try/catch for buffering cycle)
